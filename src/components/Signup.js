@@ -17,7 +17,7 @@ const Signup = () => {
         }
 
 
-        fetch("https://rapidq-shyam-nodejs.herokuapp.com//signup", {
+        fetch("https://rapidq-shyam-nodejs.herokuapp.com/signup", {
             method: "POST",
             headers: {
                 "Content-Type": "application/json"
