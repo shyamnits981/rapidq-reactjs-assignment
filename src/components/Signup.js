@@ -51,9 +51,7 @@ const Signup = () => {
                 <input type="text" placeholder="name" value={name} onChange={(e) => setName(e.target.value)} />
                 <input type="text" placeholder="email" value={email} onChange={(e) => setEmail(e.target.value)} />
                 <input type="password" placeholder="password" value={password} onChange={(e) => setPassword(e.target.value)} />
-
                 <button className='btn waves-effect waves-light' onClick={() => PostData()}>Signup</button>
-
                 <h5>
                     <Link to="signin">Alredy have an account?</Link>
                 </h5>
