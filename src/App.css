@@ -1,0 +1,142 @@
+*{
+   margin: 0;
+   padding: 0;
+ }
+ @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,200&family=Nunito+Sans:wght@200&display=swap');
+
+  a{
+    color: black !important;
+  }
+  .brand-logo{
+    font-family: 'Nunito Sans', sans-serif;
+  }
+  .mycart{
+    margin-top: 20px;
+  }
+  .auth-card{
+  padding:20px;
+  text-align: center;
+  max-width: 400px;
+  margin: 10px auto;
+  }
+  .gallery{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+  }
+  .item{
+    width: 30%;
+  }  
+  .home-card{
+    max-width: 500px;
+    height: max-content;
+    margin: 26px auto;
+  }
+  
+  /* //Predefinde id */
+  #toast-container{
+    top:30px;
+    right:20px;
+    left:auto !important;
+  }
+  .ullist{
+    height: 70px;
+    width: 100wv;
+    display: flex;
+    flex-direction: row;
+
+  }
+  .list1{
+    height: 60px;
+    
+  }
+  .btnsss{
+    height: 50px;
+    width: 140px;
+    display: flex;
+    flex-direction: column-reverse;
+    margin-left: 1250px;
+    color: white;
+    border-radius: 5px;
+    background-color: rgb(16, 68, 68);
+  }
+  .btnss{
+    height: 50px;
+    width: 100px;
+    text-align: center;
+    justify-content: center;
+    margin-left: 300px;
+    background-color: rgb(41, 138, 106);
+  }
+  .itemss{
+    height: 40px;
+    width: 120px;
+    padding: 0%;
+  }
+  .buttonss{
+    height: 25px;
+    width:120px ;
+  }
+
+ul li{
+  width: 130px;
+  border: 1px solid black;
+   
+  }
+.addproduct{
+  display: flex;
+  background-color: white;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.inputBox{
+  height: 40px;
+  width: 40px;
+  justify-content: center;
+  margin:50px;
+}
+.invlid-input{
+  color: red;
+  margin-top: -10px;
+  display: block;
+  margin-left: 20px;
+}
+
+.product-list{
+  text-align: center;
+  margin-top: 50px;
+
+}
+.product-list ul li{
+  display: inline-block;
+  
+}
+.product-list ul{
+  margin: 0;
+
+}
+.addtions{
+  margin-left: 600px;
+}
+
+.searchinput{
+  height: 40px;
+  width:500px 
+}
+.buttons{
+  margin-left: 800px;
+  height: 50px;
+  width: 130px;
+  background-color: rgb(17, 45, 36);
+  color: white;
+  border-radius: 5px;
+}
+.heading{
+  display: flex;
+  flex-wrap: wrap;
+}
+.Container{
+  width: 60vw;
+  margin-left: 100px;
+}
