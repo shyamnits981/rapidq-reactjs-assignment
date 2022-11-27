@@ -11,7 +11,7 @@ const DetailsList = () => {
 
 
     const getProducts = async () => {
-        let result = await fetch("https://rapidq-shyam-nodejs.herokuapp.com/products")
+        let result = await fetch("http://localhost:5000/products")
         result = await result.json();
         setProducts(result);
     }
@@ -26,7 +26,7 @@ const DetailsList = () => {
 
 
     const deleteProducts = async (id) => {
-        let result = await fetch(`https://rapidq-shyam-nodejs.herokuapp.com/product/${id}`, {
+        let result = await fetch(`http://localhost:5000/product/${id}`, {
             method: "Delete"
         });
         result = await result.json()
@@ -40,7 +40,7 @@ const DetailsList = () => {
        let key = event.target.value;
 
        if(key){
-        let result = await fetch(`https://rapidq-shyam-nodejs.herokuapp.com/search/${key}`);
+        let result = await fetch(`http://localhost:5000/search/${key}`);
         result = await result.json();
         if(result){
          setProducts(result);
