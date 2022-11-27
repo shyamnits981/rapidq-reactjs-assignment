@@ -20,7 +20,7 @@ const Update = () => {
 
     const getDetails = async () =>{
       console.log(params);
-      let result = await fetch(`http://localhost:5000/product/${params.id}`)
+      let result = await fetch(`https://rapidq-shyam-nodejs.herokuapp.com/product/${params.id}`)
       result = await result.json();
       setName(result.name);
       setRollNumber(result.rollnumber);
@@ -36,7 +36,7 @@ const Update = () => {
 
     const updateDetails = async () => {
     console.log(name, rollnumber, collagename, branch, duedate, propitylevel, starred, creationdate, finishdate)
-        let result = await fetch(`http://localhost:5000/product/${params.id}`,{
+        let result = await fetch(`https://rapidq-shyam-nodejs.herokuapp.com/product/${params.id}`,{
           method:'PUT',
           body:JSON.stringify({name, rollnumber, collagename, branch, duedate, propitylevel, starred, creationdate, finishdate}),
           headers:{

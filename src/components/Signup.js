@@ -17,7 +17,7 @@ const PostData = ()=>{
     }
   
 
-    fetch("http://localhost:5000/signup",{
+    fetch("https://rapidq-shyam-nodejs.herokuapp.com/signup",{
         method:"POST",
         headers:{
              "Content-Type":"application/json"
